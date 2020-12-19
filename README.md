@@ -1,2 +1,2 @@
 # PowerSupply
-Power supply design
+Power supply design for eurorack, using isolated switching regulators
