@@ -1,4 +1,75 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# FabienCustom_SCW20A-12
+#
+DEF FabienCustom_SCW20A-12 U 0 40 Y Y 1 F N
+F0 "U" 50 0 50 H V C CNN
+F1 "FabienCustom_SCW20A-12" 50 100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -350 -150 500 -1150 0 1 0 f
+X ON/OFF 1 -450 -650 100 R 50 50 1 1 I
+X NC 11 600 -650 100 L 50 50 1 1 N
+X +Vout 14 600 -300 100 L 50 50 1 1 O
+X -Vout 16 600 -1000 100 L 50 50 1 1 O
+X -Vin 2 -450 -900 100 R 50 50 1 1 I
+X +Vin 22 -450 -300 100 R 50 50 1 1 I
+X +Vin 23 -450 -400 100 R 50 50 1 1 I
+X -Vin 3 -450 -1000 100 R 50 50 1 1 I
+X NC 9 600 -550 100 L 50 50 1 1 N
+ENDDRAW
+ENDDEF
+#
+# PC722A_PC722A
+#
+DEF PC722A_PC722A J 0 40 Y N 1 L N
+F0 "J" -200 200 50 H V L BNN
+F1 "PC722A_PC722A" -200 -200 50 H V L BNN
+F2 "SWITCHCRAFT_PC722A" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "16.764 mm" 0 0 50 H I L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F5 "G" 0 0 50 H I L BNN "PARTREV"
+F6 "Manufacturer Recommendations" 0 0 50 H I L BNN "STANDARD"
+F7 "Switchcraft" 0 0 50 H I L BNN "MANUFACTURER"
+DRAW
+A -250 95 50 -60 -1740 0 0 10 N -200 100 -300 100
+A -150 -95 50 1740 60 0 0 10 N -200 -100 -100 -100
+P 2 0 0 10 -200 100 100 100 N
+P 2 0 0 10 -100 -100 100 -100 N
+P 2 0 0 10 0 0 0 -70 N
+P 2 0 0 10 0 0 100 0 N
+P 3 0 0 10 0 -90 -10 -40 10 -40 f
+X ~ PIN 300 100 200 L 40 40 0 0 P
+X ~ SLV 300 -100 200 L 40 40 0 0 P
+X ~ S_S 300 0 200 L 40 40 0 0 P
+ENDDRAW
+ENDDEF
+#
+# dk_Diodes-Rectifiers-Single_SS14
+#
+DEF dk_Diodes-Rectifiers-Single_SS14 D 0 40 Y Y 1 F N
+F0 "D" 50 100 50 H V C CNN
+F1 "dk_Diodes-Rectifiers-Single_SS14" 50 -100 50 H V C CNN
+F2 "digikey-footprints:DO-214AC" 200 200 60 H I L CNN
+F3 "https://www.onsemi.com/pub/Collateral/SS19-D.PDF" 200 300 60 H I L CNN
+F4 "SS14CT-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "SS14" 200 500 60 H I L CNN "MPN"
+F6 "Discrete Semiconductor Products" 200 600 60 H I L CNN "Category"
+F7 "Diodes - Rectifiers - Single" 200 700 60 H I L CNN "Family"
+F8 "https://www.onsemi.com/pub/Collateral/SS19-D.PDF" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/on-semiconductor/SS14/SS14CT-ND/965729" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "DIODE SCHOTTKY 40V 1A SMA" 200 1000 60 H I L CNN "Description"
+F11 "ON Semiconductor" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+P 2 0 1 0 0 0 100 0 N
+P 2 0 1 0 0 50 0 -50 N
+P 4 0 1 0 100 50 100 -50 0 0 100 50 F
+X ~ A 200 0 100 L 50 50 1 1 P
+X ~ K -100 0 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 #End Library

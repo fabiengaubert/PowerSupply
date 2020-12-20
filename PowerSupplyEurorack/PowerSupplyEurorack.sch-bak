@@ -1,4 +1,47 @@
-EESchema Schematic File Version 2
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Eurorack power supply"
+Date "2020-12-19"
+Rev "v1.0"
+Comp "MetaObjects"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L FabienCustom:SCW20A-12 U?
+U 1 1 5FDF647F
+P 5660 3370
+F 0 "U?" H 5735 3385 50  0000 C CNN
+F 1 "SCW20A-12" H 5735 3294 50  0000 C CNN
+F 2 "" H 5660 3370 50  0001 C CNN
+F 3 "https://icdn.tradew.com/file/201406/1557090/pdf/6974953.pdf" H 5660 3370 50  0001 C CNN
+	1    5660 3370
+	1    0    0    -1  
+$EndComp
+$Comp
+L dk_Diodes-Rectifiers-Single:SS14 D?
+U 1 1 5FDF812F
+P 2730 3020
+F 0 "D?" H 2780 2805 50  0000 C CNN
+F 1 "SS36" H 2780 2896 50  0000 C CNN
+F 2 "digikey-footprints:DO-214AC" H 2930 3220 60  0001 L CNN
+F 3 "https://www.onsemi.com/pub/Collateral/SS19-D.PDF" H 2930 3320 60  0001 L CNN
+F 4 "SS14CT-ND" H 2930 3420 60  0001 L CNN "Digi-Key_PN"
+F 5 "SS14" H 2930 3520 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 2930 3620 60  0001 L CNN "Category"
+F 7 "Diodes - Rectifiers - Single" H 2930 3720 60  0001 L CNN "Family"
+F 8 "https://www.onsemi.com/pub/Collateral/SS19-D.PDF" H 2930 3820 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/on-semiconductor/SS14/SS14CT-ND/965729" H 2930 3920 60  0001 L CNN "DK_Detail_Page"
+F 10 "DIODE SCHOTTKY 40V 1A SMA" H 2930 4020 60  0001 L CNN "Description"
+F 11 "ON Semiconductor" H 2930 4120 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 2930 4220 60  0001 L CNN "Status"
+	1    2730 3020
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
